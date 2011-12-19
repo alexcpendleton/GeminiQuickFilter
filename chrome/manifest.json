@@ -9,7 +9,7 @@
     "*"
   ],
   "content_scripts": [{
-	"matches":["*://*/*"],
+	"matches":["https://support.buybooktech.com/*"],
 	"js":["jquery.js", "jquery.quicksearch.js", "main.js"],
 	"run_at": "document_start"
   }]
